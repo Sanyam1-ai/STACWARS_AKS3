@@ -76,19 +76,13 @@ For tasks involving executable code:
 1. Clone this repository:
 
    ```bash
-   git clone 
+   git clone https://github.com/Sanyam1-ai/STACWARS_AKS3.git
    ```
 
 2. Navigate to the relevant task folder:
 
    ```bash
    cd task2_data_visualization
-   ```
-
-3. Install the required dependencies, if a `requirements.txt` file is provided:
-
-   ```bash
-   pip install -r requirements.txt
    ```
 
 4. Run the Python script:
