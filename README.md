@@ -9,34 +9,37 @@
 - **Team Members:** [Sanyam Jain, Harkabir Singh, Arghadip Sarkar, Aayush Mangla, Shahil Kumar]
 - **Event:** STAC WARS Hackathon
 
-## 📌 Project Overview
+##  Project Overview
 
 This repository contains our team's submissions for the STAC WARS Hackathon. It includes the relevant project files, code, reports, analysis, and other deliverables for the tasks attempted by our team.
 
 Our objective is to demonstrate our technical skills, problem-solving approach, analytical thinking, and ability to develop and present effective solutions.
 
-## 🛠️ Tasks Attempted
+##  Tasks Attempted
 
 ### Task 2: Data Visualization
 **Objective:** Analyze the provided dataset and visualize meaningful patterns, trends, and relationships.
 
-- **Approach:** [Describe the analysis and visualization methods used.]
-- **Key Findings:** [Summarize your actual findings.]
-- **Technologies Used:** Python, pandas, matplotlib, [other libraries actually used].
+- **Approach:** We have used the scatter plot graph to analyse the given dataset.
+- **Key Findings:** Mean radiation: 207.1247, 
+                    Maximum radiation: 1601.2600, 
+                    Mean-radiation peak hour: 12:00, 
+                    Strongest absolute linear correlation: Temperature (0.7350)
+- **Technologies Used:** Python, pandas, matplotlib, numpy.
 - **Deliverables:** Python source file and PDF report.
 - **Files:** `task2_data_visualization/`
 
 ### Task 3: Astronomy
-**Objective:** Analyse the observational data for the three stellar system and identify the most promising candidate for further astronomical study in order to achieve habitation.
+**Objective:** Analyse the observational data for the three stellar system and identify the most promising candidate for further astronomical study to make it habitable.
 
 - **Approach:** We have used the concept of transit for calculation of transit depth, planet size and orbital distance.Comparing it to the proposed habitable situations.
 
 - **Key Findings:**
-   **Promising Candidate:** Exoplanet in the STAC-3 stellar system
-   **Estimated Size:** Estimated size of the exoplanet in STAC-3 stellar system is 1.6 times of that of Earth
-   **Orbital Distance:** The planet revolves around STAC-3 at a 0.182 AU distance which is nearer to its habitable zone which is 0.283 AU than other exoplanets.
-   **Other Relevant Parameters:** Estimated orbital period of this Exoplanet is 40 days and its transit depth is 0.00088.
-   **Selection Rationale:** Similar size as compared to super Earth so similar conditions as Earth can be generated.And the most significant reason is its proximity to its habitable zone.
+-**Promising Candidate:** Exoplanet in the STAC-3 stellar system
+-**Estimated Size:** Estimated size of the exoplanet in STAC-3 stellar system is 1.6 times of that of Earth
+-**Orbital Distance:** The planet revolves around STAC-3 at a 0.182 AU distance which is nearer to its habitable zone which is 0.283 AU than other exoplanets.
+-**Other Relevant Parameters:** Estimated orbital period of this Exoplanet is 40 days and its transit depth is 0.00088.
+-**Selection Rationale:**  Its proximity to its habitable zone and its host star's properties such as luminosity, surface temperature etc.
 
 Detailed calculations, methodology, supporting data, and limitations are documented in the accompanying IEEE-format report.
 - **Deliverables:** Research report in IEEE format.
@@ -52,16 +55,15 @@ Detailed calculations, methodology, supporting data, and limitations are documen
 - **Files:** `task4_product_ideathon/`
 
 
-## 💻 Technologies Used
+##  Technologies Used
 
 List the tools and technologies actually used in your submission:
 
 - Python
 - pandas
 - matplotlib
-- [Other libraries, tools, or software used]
-
-## ⚙️ Setup and Execution
+- numpy
+##  Setup and Execution
 
 For tasks involving executable code:
 
@@ -74,7 +76,7 @@ For tasks involving executable code:
 1. Clone this repository:
 
    ```bash
-   git clone [YOUR_REPOSITORY_URL]
+   git clone 
    ```
 
 2. Navigate to the relevant task folder:
@@ -92,11 +94,11 @@ For tasks involving executable code:
 4. Run the Python script:
 
    ```bash
-   python analysis.py
+   python PS2_Solar_analysis.ipynb
    ```
 
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```text
 STACWARS_AKS3
@@ -112,11 +114,11 @@ STACWARS_AKS3
 └── presentation.pdf
 ```
 
-## 📄 Deliverables
+##  Deliverables
 
 All required deliverables for the tasks attempted by our team are organized in their respective folders. Reports and presentations are provided in the formats specified by the hackathon guidelines.
 
-## 🙌 Acknowledgements
+##  Acknowledgements
 
 We thank the STAC Club and the organizers for providing this opportunity to learn, collaborate, and demonstrate our technical abilities.
 
